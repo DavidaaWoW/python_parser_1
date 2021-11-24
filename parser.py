@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup
 import csv
 import re
 
-URL = 'https://www.avtomaxi.ru/'
+URL = 'https://www.XXXXXXXXXX.ru/'
 HEADERS = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 YaBrowser/21.6.4.693 Yowser/2.5 Safari/537.36'}
-HOST = 'https://www.avtomaxi.ru'
+HOST = 'https://www.XXXXXXXXX.ru'
 cars = []
 
 def get_html(url, params=None):
